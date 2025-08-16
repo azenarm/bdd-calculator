@@ -8,6 +8,6 @@ Feature: add two number
     Then calculation result is <res>
     Examples:
       | num1 | num2 | res |
-      | 2 | 2 | 4 |
-      | 5.3 | 4.2 | 9.5 |
-      | -1.2 | 2.3 | 1.1 |
+      | 2    | 2    | 4   |
+      | 5.3  | 4.2  | 9.5 |
+      | -1.2 | 2.3  | 1.1 |

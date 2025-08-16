@@ -6,6 +6,12 @@ public class Calculator {
         if ("+".equals(operator)) {
             return a + b;
         }
+        if ("-".equals(operator)) {
+            return a - b;
+        }
+        if ("/".equals(operator)) {
+            return a / b;
+        }
         return 0;
     }
 }
